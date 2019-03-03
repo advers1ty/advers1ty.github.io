@@ -78,7 +78,9 @@ theme: archer
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/advers1ty/advers1ty.github.io.git
+  branch: master
 
 
 jsonContent:
